@@ -1,11 +1,7 @@
 module.exports = function ( karma ) {
-<<<<<<< HEAD
   process.env.CHROME_BIN = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
   process.env.FIREFOX_BIN = "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"
   karma.set({
-=======
-  karma.configure({
->>>>>>> fbb926390d590cb90d7ea67b2ee1564673b2d105
     /** 
      * From where to look for files, starting with the location of this file.
      */
@@ -61,11 +57,8 @@ module.exports = function ( karma ) {
      * the aesthetic advantage of not launching a browser every time you save.
      */
     browsers: [
-<<<<<<< HEAD
-      'Chrome'
-=======
+      'Chrome',
       'Firefox'
->>>>>>> fbb926390d590cb90d7ea67b2ee1564673b2d105
     ]
   });
 };

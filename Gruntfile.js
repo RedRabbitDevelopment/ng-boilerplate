@@ -296,17 +296,11 @@ module.exports = function ( grunt ) {
       },
       globals: {}
     },
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> fbb926390d590cb90d7ea67b2ee1564673b2d105
     /**
      * `coffeelint` does the same as `jshint`, but for CoffeeScript.
      * CoffeeScript is not the default in ngBoilerplate, so we're just using
      * the defaults here.
      */
-<<<<<<< HEAD
      
     coffeelint: {
       options: {
@@ -317,9 +311,6 @@ module.exports = function ( grunt ) {
           level: 'ignore'
         }
       },
-=======
-    coffeelint: {
->>>>>>> fbb926390d590cb90d7ea67b2ee1564673b2d105
       src: {
         files: {
           src: [ '<%= app_files.coffee %>' ]
@@ -331,11 +322,6 @@ module.exports = function ( grunt ) {
         }
       }
     },
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> fbb926390d590cb90d7ea67b2ee1564673b2d105
     /**
      * HTML2JS is a Grunt plugin that takes all of your template files and
      * places them into JavaScript files as strings that are added to
@@ -374,18 +360,11 @@ module.exports = function ( grunt ) {
         configFile: '<%= build_dir %>/karma-unit.js'
       },
       unit: {
-<<<<<<< HEAD
         port: 9877,
         background: true
       },
       continuous: {
         background: false,
-=======
-        runnerPort: 9101,
-        background: true
-      },
-      continuous: {
->>>>>>> fbb926390d590cb90d7ea67b2ee1564673b2d105
         singleRun: true
       }
     },
