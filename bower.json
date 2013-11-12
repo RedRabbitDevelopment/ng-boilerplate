@@ -1,15 +1,25 @@
 {
   "name": "ng-boilerplate",
+<<<<<<< HEAD
   "version": "0.3.1",
   "devDependencies": {
     "angular": "1.2.0",
+=======
+  "version": "0.3.0",
+  "devDependencies": {
+    "angular": "~1.0.7",
+>>>>>>> fbb926390d590cb90d7ea67b2ee1564673b2d105
     "angular-mocks": "~1.0.7",
     "bootstrap": "~2.3.2",
     "angular-bootstrap": "~0.3.0",
     "angular-ui-router": "~0.0.1",
+<<<<<<< HEAD
     "angular-ui-utils": "~0.0.3",
     "requirejs": "~2.1.9",
     "angular-resource": "~1.2.0"
+=======
+    "angular-ui-utils": "~0.0.3"
+>>>>>>> fbb926390d590cb90d7ea67b2ee1564673b2d105
   },
   "dependencies": {}
 }

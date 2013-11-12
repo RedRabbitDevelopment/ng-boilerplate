@@ -1,7 +1,11 @@
 {
   "author": "Josh David Miller",
   "name": "ng-boilerplate",
+<<<<<<< HEAD
   "version": "0.3.1",
+=======
+  "version": "0.3.0",
+>>>>>>> fbb926390d590cb90d7ea67b2ee1564673b2d105
   "homepage": "http://bit.ly/ng-boilerplate",
   "licenses": {
     "type": "MIT",
@@ -12,9 +16,13 @@
     "type": "git",
     "url": "git@github.com:joshdmiller/ng-boilerplate.git"
   },
+<<<<<<< HEAD
   "dependencies": {
     "requirejs": "~2.1.9"
   },
+=======
+  "dependencies": {},
+>>>>>>> fbb926390d590cb90d7ea67b2ee1564673b2d105
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-recess": "~0.3.0",
@@ -28,9 +36,15 @@
     "grunt-ngmin": "0.0.2",
     "grunt-html2js": "~0.1.3",
     "grunt-contrib-coffee": "~0.7.0",
+<<<<<<< HEAD
     "grunt-coffeelint": "0.0.7",
     "grunt-conventional-changelog": "~0.1.1",
     "grunt-bump": "0.0.6",
     "karma-requirejs": "~0.1.0"
+=======
+    "grunt-coffeelint": "0.0.6",
+    "grunt-conventional-changelog": "~0.1.1",
+    "grunt-bump": "0.0.6"
+>>>>>>> fbb926390d590cb90d7ea67b2ee1564673b2d105
   }
 }

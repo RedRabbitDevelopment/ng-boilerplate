@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 0.3.1 (2013-09-13)
 
 ## Features
@@ -17,6 +18,8 @@
 * Vendor files were added to build twice ([09277b74](git@github.com:joshdmiller/ng-boilerplate/commit/09277b74))
 * IE7 Font Awesome stylesheet pointed nowhere ([515673b1](git@github.com:joshdmiller/ng-boilerplate/commit/515673b1))
 
+=======
+>>>>>>> fbb926390d590cb90d7ea67b2ee1564673b2d105
 # 0.3.0 (2013-06-25)
 
 ## Features
