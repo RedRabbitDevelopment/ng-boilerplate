@@ -1,5 +1,7 @@
 module.exports = function ( karma ) {
-  karma.configure({
+  process.env.CHROME_BIN = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+  process.env.FIREFOX_BIN = "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"
+  karma.set({
     /** 
      * From where to look for files, starting with the location of this file.
      */
